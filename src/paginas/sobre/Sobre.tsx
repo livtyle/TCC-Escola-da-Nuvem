@@ -2,8 +2,16 @@ import { Button, Container, Grid, Typography, makeStyles } from "@material-ui/co
 import "./Sobre.css";
 import cvLuan from '../../assets/pdf/CVs/CV-Luan.Silva.pdf'
 import picLuan from '../../assets/img/perfil/LuanPefil.png'
+
 import cvMorgana from '../../assets/pdf/CVs/Morgana.EdN.pdf'
 import picMorgana from '../../assets/img/perfil/MorganaPerfil.png'
+
+import cvLuiz from '../../assets/pdf/CVs/Luiz_Mendes_CV_2023.pdf'
+import picLuiz from '../../assets/img/perfil/Luiz.Pefil.png'
+
+import cvLucas from '../../assets/pdf/CVs/Lucas_Magueta.pdf'
+import picLucas from '../../assets/img/perfil/Lucas.Perfil.png'
+
 import { toast } from 'react-toastify'
 import { useNavigate } from 'react-router-dom';
 import { isIOS, isMacOs, isSafari } from 'react-device-detect';
@@ -38,17 +46,17 @@ const content = [
         txt: ' Analista Cloud Jr.',
     },
     {
-        name: ' ',
-        cvlink: ' ',
-        cvname: '',
-        pic: '',
+        name: 'Luiz Mendes',
+        cvlink: cvLuiz,
+        cvname: 'Cv-Luiz',
+        pic: picLuiz,
         txt: '',
     },
     {
-        name: ' ',
-        cvlink: ' ',
-        cvname: '',
-        pic: '',
+        name: 'Lucas Magueta ',
+        cvlink: cvLucas,
+        cvname: 'Cv-Lucas',
+        pic: picLucas,
         txt: '',
     },
     {
