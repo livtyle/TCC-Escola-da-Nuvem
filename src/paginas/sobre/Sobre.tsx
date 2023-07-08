@@ -27,30 +27,36 @@ const content = [
         cvname: 'Cv-Luan',
         linkedin: 'https://www.linkedin.com/in/luan-silva-6506a61a1/',
         pic: picLuan,
+        txt: ' Desenvolvedor Java',
     },
+
     {
         name: 'Morgana Melo ',
         cvlink: cvMorgana,
         cvname: 'Cv-Morgana',
         pic: picMorgana,
+        txt: ' Analista Cloud Jr.',
     },
     {
         name: ' ',
         cvlink: ' ',
         cvname: '',
         pic: '',
+        txt: '',
     },
     {
         name: ' ',
         cvlink: ' ',
         cvname: '',
         pic: '',
+        txt: '',
     },
     {
         name: ' ',
         cvlink: ' ',
         cvname: '',
         pic: '',
+        txt: '',
     }
 ];
 
@@ -128,7 +134,7 @@ export function Sobre() {
                         <div className='card'>
                             <img src={content.pic} alt={content.name} className='profilepic' />
                             <h2 className='h1but'>{content.name}</h2>
-                            <h4>Desenvolvedor Backend</h4>
+                            <h4 className='h4but'>{content.txt}</h4>
                         <div className="icons">                            
                         <DownloadIcon
                                 className={classes.downloadIcon} onClick={(event) => handleDownload(event, content.cvlink, content.cvname)} />
