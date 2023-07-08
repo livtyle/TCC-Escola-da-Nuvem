@@ -50,14 +50,14 @@ const content = [
         cvlink: cvLuiz,
         cvname: 'Cv-Luiz',
         pic: picLuiz,
-        txt: '',
+        txt: 'Analista Suporte TI',
     },
     {
         name: 'Lucas Magueta ',
         cvlink: cvLucas,
         cvname: 'Cv-Lucas',
         pic: picLucas,
-        txt: '',
+        txt: 'Técnico em TI',
     },
     {
         name: ' ',
