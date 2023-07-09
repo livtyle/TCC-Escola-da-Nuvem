@@ -1,0 +1,76 @@
+.cv {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 70px;
+  margin-left: 0px;
+  margin-bottom: 80px;
+}
+
+.cvbox {
+  flex: 0 0 calc(50% - 5px);
+  margin-bottom: 15px;
+}
+
+.errorp{
+  text-align: justify;
+}
+
+.h1cv{
+  text-align: center;
+  margin: 30px 30px;
+}
+
+.card {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 27px;
+  box-shadow: -3px 3px 0px 3px rgba(0, 0, 0, 0.505);
+  width: 300px;
+  height: auto;
+}
+.icons {
+  display: flex;
+
+}
+
+.profilepic {
+  border-radius: 50%;
+  width: 20vh;
+  height: 20vh;
+  margin-bottom: 1vh;
+  border: solid rgba(0, 0, 0, 0.79);
+}
+
+.h1but {
+  margin-top: -3px;
+  padding-left: 10px;
+  padding-bottom: 7px;
+}
+
+.butGetCv {
+  background-color: var(--bege);
+  border: solid rgba(0, 0, 0, 0.823);
+  border-radius: 17px;
+  padding-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .cv {
+      padding-left: 4rem;
+      margin-left: 38px;
+  }
+
+  .cvbox {
+      padding: 10px;
+      flex-basis: calc(33.33% - 10px);
+      margin-top: 1vh;
+      margin-bottom: -5vh;
+  }
+}
